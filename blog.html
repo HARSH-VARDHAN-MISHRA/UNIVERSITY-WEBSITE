@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+    <header>
+        <div >
+            <nav>
+                <a href="index.html"><img src="/images/logo.png"></a>
+                <div class="nav_links" id="nav_links">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </header>
+</section>
+
+<!-- For the TOOGLE MENU for small size screen -->
+<script>
+    var navLinks=document.getElementById("nav_links");
+
+    function showMenu(){
+        navLinks.style.right="0vw";
+    }
+    function hideMenu(){
+        navLinks.style.right="-45vw";
+    }
+</script>
+    
+
+<!-- -------------Blog Page Content------------- -->
+<section class="blog_content">
+    <div class="row">
+        <div class="blog_left">
+            <img src="/images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio aut repellendus dignissimos porro? Molestiae, dolorem nam. Iste, velit quasi. Molestias, cumque! Porro commodi quod assumenda aspernatur. Natus, quae, provident pariatur ab veniam esse vel vero incidunt fuga eos optio earum aut saepe ut magnam sunt sapiente. Impedit, nobis repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus quis quos architecto saepe tenetur consequuntur adipisci culpa. Laborum ipsam vero deleniti corrupti nostrum amet quo optio debitis numquam voluptate, soluta et provident eaque! Deserunt quisquam mollitia nemo excepturi libero!</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis nobis dignissimos vero sed ab earum unde suscipit, eius quas exercitationem deserunt illum praesentium maxime aliquid inventore consequuntur iste odit soluta ratione deleniti ipsum explicabo. Labore distinctio alias ducimus quia.</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae molestias suscipit autem fugit. Ut sit deleniti, fugit accusamus unde culpa optio veniam sunt id exercitationem eveniet debitis minima eius rerum quia maxime quam ullam soluta aliquam reiciendis. Odio culpa libero iste ab sunt debitis quod, at, vitae nobis laborum ipsa iusto quaerat labore dolorum quasi cum deleniti voluptatum, dicta repellat doloremque! Velit debitis nobis, obcaecati, et nisi labore est nulla soluta voluptatibus molestias officia, culpa minima. Itaque recusandae repellat ipsam, illum dicta doloremque corrupti, vitae quas, expedita accusamus optio!</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ea consequatur illum, ut ipsam obcaecati eaque corrupti, sapiente nemo hic tenetur. Sequi ipsum tempore, laboriosam veritatis praesentium at quisquam. Modi laborum suscipit facilis non maxime est minima hic laboriosam saepe consequatur ullam odio, quasi et architecto neque atque exercitationem, accusantium id voluptates! Vero quaerat architecto explicabo officia rem, culpa natus, rerum numquam laborum perspiciatis voluptatum incidunt accusamus inventore nulla soluta ullam non quo impedit dolorum praesentium quisquam eos odio expedita! Quos quidem quaerat sit reprehenderit delectus nihil totam, beatae debitis perferendis cupiditate a pariatur hic placeat quo ducimus ab repudiandae molestias eum iusto, maxime in dolorem quia ut. Ducimus sint aspernatur non illum. Aliquid, ut ab sit possimus dignissimos, quis sequi dolore pariatur ducimus ipsa blanditiis magni ipsam animi quisquam nobis alias labore assumenda, sint eaque! Praesentium, dignissimos dolorem distinctio tenetur sunt, quos, laudantium quaerat suscipit rem aut quis nam.</p>
+
+
+            <div class="comment_box">
+                <h3>Leave a comment</h3>
+                <form class="comment_form">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <textarea  rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero_btn red_btn">POST COMMENT</button>
+                    <!-- <input type="submit" value="POST COMMENT" class="hero_btn red_btn"> -->
+                </form>
+            </div>
+        </div>
+
+        <div class="blog_right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Data Analytics</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>56</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>40</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- -------Footer---------->
+<footer>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, commodi voluptatibus architecto ad dolores assumenda<br/> animi sapiente fuga nulla rem enim ullam quis unde inventore magni illo! Dolorem, voluptatibus saepe!</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/harshvardhan.mishra.904?mibextid=ZbWKwL"><i class="fa fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/__harshvardha__?igshid=MzNlNGNkZWQ4Mg=="><i  class="fa fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/harshvardhan-mishra-2812b8259"><i class="fa fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-brands fa-github"></i></a>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart-crack"></i> By HARSH VARDHAN MISHRA</p>
+    </section>
+</footer>
+
+</body>
+</html>

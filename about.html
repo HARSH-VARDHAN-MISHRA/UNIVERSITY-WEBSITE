@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="sub-header">
+    <header>
+        <div >
+            <nav>
+                <a href="index.html"><img src="/images/logo.png"></a>
+                <div class="nav_links" id="nav_links">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+
+        <h1>ABOUT US</h1>
+    </header>
+</section>
+
+<!-- For the TOOGLE MENU for small size screen -->
+<script>
+    var navLinks=document.getElementById("nav_links");
+
+    function showMenu(){
+        navLinks.style.right="0vw";
+    }
+    function hideMenu(){
+        navLinks.style.right="-45vw";
+    }
+</script>
+    
+
+<!-- -------------About Us Content------------- -->
+<section class="about_us">
+    <div class="row">
+        <div class="about_col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore blanditiis amet aut temporibus ipsum quo inventore iure nesciunt illum ipsam sed, laboriosam quae facilis in sapiente, culpa eaque alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem adipisci nobis expedita similique amet delectus vitae culpa quisquam dolorem eligendi, inventore optio, enim sit animi rem, natus harum commodi.</p>
+            <a href="#" class="hero_btn red_btn">Explore Now</a>
+        </div>
+        <div class="about_col">
+            <img src="/images/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- -------Footer---------->
+<footer>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, commodi voluptatibus architecto ad dolores assumenda<br/> animi sapiente fuga nulla rem enim ullam quis unde inventore magni illo! Dolorem, voluptatibus saepe!</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/harshvardhan.mishra.904?mibextid=ZbWKwL"><i class="fa fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/__harshvardha__?igshid=MzNlNGNkZWQ4Mg=="><i  class="fa fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/harshvardhan-mishra-2812b8259"><i class="fa fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-brands fa-github"></i></a>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart-crack"></i> By HARSH VARDHAN MISHRA</p>
+    </section>
+</footer>
+
+</body>
+</html>
